@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Hurricane";
+    src: url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+}
+@font-face {
+    font-family: "Inter";
+    src:url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+}
+
+body {
+    font-family: "Inter";
+}
+.titre {
+    font-family: "Hurricane";
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+header>ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+li {
+    list-style-type: none;
+}
+.bouton-vert {
+    background-color: #36C4B3;
+}
+.fond {
+    background-color: #36C4B340;
+}
+.accordeon {
+    padding: 5%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.centre {
+    text-align: center;
+    font-weight: bold;
+}
+.carte {
+    background-color:  #36C4B340;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+section:first-child>img {
+    width: 50%;
+}
+.vehi {
+    width: 50px;
+    height: 50px;
+}
+.vehiplus {
+    width:120px;
+    height:120px;
+}
+.vehi:hover {
+    width:75px;
+    height:75px;
+}
+.vehiplus:hover {
+    width:150px;
+    height:150px;
+}
+.voiture {
+    width: 60%;
+    height: 60%;
+}
+.formulaire {
+    background-color: white;
+    border: 1px solid grey;
+}
